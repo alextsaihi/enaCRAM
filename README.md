@@ -4,8 +4,8 @@ The ENA CRAM Archive Client is designed for easy retrieval of reference sequence
 
 ## Features
 
-- *get_metadata(self,sid)* retrieve reference sequence 
-- *get_sequence(self,sid)* retrieve reference sequence metadata in json format 
+- *get_metadata(self, sid)* retrieve reference sequence 
+- *get_sequence(self, sid)* retrieve reference sequence metadata in json format 
 - *get_service_info()* retrieve service info in json format 
 
 ## Installation
@@ -16,7 +16,7 @@ pip install git+https://github.com/alextsaihi/enaCRAM.git
 
 ## Example
 
-In a case where you would like to print out the metadata, use get_metadata function
+In a case where you would like to print out the metadata, use *get_metadata* function
 ```bash
 from enaCRAM import enaCRAM
 
