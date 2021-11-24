@@ -16,7 +16,8 @@ pip install git+https://github.com/alextsaihi/enaCRAM.git
 
 ## Example
 
-In a case where you would like to print out the metadata, use *get_metadata* function
+In a case where you would like to print out the metadata, use *get_metadata* function.
+Similarly, *get_sequence* and *get_service_info* to retrieve the reference sequence and service info, respectively.
 ```bash
 from enacram.enacram import enaCRAM
 
