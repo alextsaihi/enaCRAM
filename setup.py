@@ -11,7 +11,7 @@ setuptools.setup(
     long_description = long_description,
     long_description_content_type = "text/markdown",
     url = "https://github.com/alextsaihi/enaCRAM",
-    packages = ['client.ena_cram'],
+    packages = ['client.enaCRAM'],
     python_requires  = '>=3.6',
 )
 
