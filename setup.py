@@ -3,7 +3,7 @@ with open("README.md","r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name = "enaCRAM_alextsai",
+    name = "enaCRAM",
     version = "1.0",
     author = "Alex Tsai",
     author_email = "alextsaihi@gmail.com",
@@ -15,7 +15,5 @@ setuptools.setup(
         "Programming Language :: Python :: 3",
         "Operating System :: OS Independent",
     ],
-    package_dir = {"": "client"},
-    packages = setuptools.find_packages(where = "client"),
     python_requires  = '>=3.6',
 )
