@@ -16,6 +16,5 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     packages = setuptools.find_packages(),
-    #py_modules = ['client.enaCRAM'],
     python_requires  = '>=3.6',
 )

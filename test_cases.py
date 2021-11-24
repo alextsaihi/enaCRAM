@@ -1,4 +1,4 @@
-from client.ena_cram import enaCRAM
+from enacram.enacram import enaCRAM
 import pytest
 
 ena = enaCRAM()
