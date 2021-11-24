@@ -3,7 +3,7 @@ with open("README.md","r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name = "enaCRAM",
+    name = "enaCRAM_alextsai",
     version = "1.0",
     author = "Alex Tsai",
     author_email = "alextsaihi@gmail.com",
