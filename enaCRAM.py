@@ -36,7 +36,3 @@ class enaCRAM:
     def get_service_info(self):
         response = requests.get("https://www.ebi.ac.uk/ena/cram/sequence/service-info")
         return response.json()
-        
-sequence = enaCRAM()
-refseq = sequence.get_sequence("3050107579885e1608e6fe50fae3f8d0")
-print(refseq)
