@@ -13,7 +13,6 @@ setuptools.setup(
     url = "https://github.com/alextsaihi/enaCRAM",
     classifiers=[
         "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
     package_dir = {"": "client"},
