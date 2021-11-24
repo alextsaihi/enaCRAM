@@ -18,7 +18,7 @@ pip install git+https://github.com/alextsaihi/enaCRAM.git
 
 In a case where you would like to print out the metadata, use *get_metadata* function
 ```bash
-from enaCRAM import enaCRAM
+from client import enaCRAM
 
 sequenceID = "3050107579885e1608e6fe50fae3f8d0"
 cram = enaCRAM()
